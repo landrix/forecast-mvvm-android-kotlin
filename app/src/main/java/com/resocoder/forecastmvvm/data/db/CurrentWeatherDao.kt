@@ -1,10 +1,7 @@
 package com.resocoder.forecastmvvm.data.db
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import com.resocoder.forecastmvvm.data.db.entity.CURRENT_WEATHER_ID
 import com.resocoder.forecastmvvm.data.db.entity.CurrentWeatherEntry
 import com.resocoder.forecastmvvm.data.db.unitlocalized.current.ImperialCurrentWeatherEntry
